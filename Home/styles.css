@@ -1,0 +1,12 @@
+:root {
+  --green-primary: #1426c3;
+  --green-secondary: #1938d1;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
