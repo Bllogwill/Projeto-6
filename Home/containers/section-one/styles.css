@@ -111,11 +111,11 @@
   align-items: flex-start;
 
   flex-direction: row-reverse;
-  background-color: aquamarine;
+  background-color: transparent
 }
 
 .section-one .pag-secion-one .logo-home-one .home-one {
-  width: 670px;
+  width: 650px;
   height: 415px;
 
   display: flex;
@@ -124,9 +124,9 @@
   align-items: flex-start;
 
   margin-top: 70px;
-  margin-right: 8px;
+  margin-right: 5px;
 
-  background-color: #3dc468;
+  background-color: transparent
 }
 
 .section-one .pag-secion-one .logo-home-one .home-one .boas-home-one {
@@ -145,7 +145,7 @@
   display: flex;
   text-align: start;
 
-  background-color: aqua;
+  background-color:transparent
 }
 
 .section-one
@@ -170,7 +170,7 @@
   display: flex;
   text-align: start;
 
-  background-color: #5f3dc4;
+  background-color: transparent
 }
 
 .section-one
@@ -192,8 +192,10 @@
   width: 263px;
   height: 50px;
 
-  background: #c43d5a;
+  background:  #5F3DC4;
   border-radius: 40px;
+
+  margin-bottom: 40px;
 
   display: flex;
   justify-content: space-between;
@@ -229,31 +231,64 @@
   .button-home-one1
   .whats-home-one {
   margin-left: 30px;
-  background-color: red;
+  background-color: transparent
 }
 
 .section-one .pag-secion-one .logo-home-one .img-home-one {
   width: 370px;
   height: 500px;
 
-  margin-right: 40px;
+  margin-right: 70px;
 
-  background-color: aqua;
+  background-color: transparent
 }
 
 .section-one .pag-secion-one .logo-home-one .img-home-one img {
-  width: 370px;
-  height: 500px;
+  width: 350px;
+  height: 530px;
 
   background-color: transparent;
 }
 
- .porc-logo-one {
-  width: 800px;
+.porc-logo-one {
+  width: 1050px;
 
   height: 210px;
 
-  margin-top: 800px;
+  position: absolute;
 
-  background-color: #3dc468;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: whitesmoke;
+
+  margin-top: 570px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #5f3dc4;
 }
+
+.porc-logo-one .title-one1,
+.title-one2,
+.title-one3 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 130%;
+
+  color: #061800;
+}
+.porc-logo-one .title1-logo-one,
+.title2-logo-one,
+.title3-logo-one {
+
+padding: 90px;
+}
+
